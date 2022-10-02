@@ -12,7 +12,7 @@ int main()
 
 	for (int i = 0; i < 15; i++) {
 		uchar pixel = img_data[i];
-		printf("%d번째 : %d\n", i, pixel);
+		printf("%d번째 데이터: %d\n", i, pixel);
 	}
 	waitKey(0);
 	return 0;
