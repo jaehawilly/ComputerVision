@@ -34,7 +34,7 @@ int main()
 	cvtColor(img_in, img_out2, COLOR_BGR2YUV);
 	imshow("img_out2", img_out2);
 	for (int i = 0; i < 30; i++) {
-		printf("%d¹øÂ° µ¥ÀÌÅÍ: %d, %d\n", i, img_out1.data[i], img_out2.data[i]);
+		printf("%dë²ˆì§¸ ë°ì´í„°: %d, %d\n", i, img_out1.data[i], img_out2.data[i]);
 	}
 	waitKey(0);
 	return 0;
